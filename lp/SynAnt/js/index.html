@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+ 		<meta name="apple-mobile-web-app-capable" content="yes">
+  		<meta name="mobile-web-app-capable" content="yes">
+  		<meta name="mobile-web-app-status-bar-style" content="black-translucent">
+  		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+      <!-- Anrdoid Button Icons -->
+<link rel="shortcut icon" sizes="128x128" href="img/app_icon128.png">
+<link rel="shortcut icon" sizes="196x196" href="img/app_icon196.png">
+
+<!-- iOS Button Icons -->
+<link rel="apple-touch-icon" href="img/app_icon60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/app_icon76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/app_icon120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/app_icon152.png">
+
+<title>SynAnt app</title>
+  </head>
+  <body  >
+   
+  
+<div class="fullscreen" >
+
+	
+
+	<div class="syn shadow"> 
+		<div class="resText"><strong>Synonyms:</strong><p id="syno"></p></div>
+	</div>
+	
+	<div class="search "> 
+	
+		<div class="round-button">
+			<div class="round-button-circle">
+				<a href="#" class="round-button" onClick="return gettext(this);">Get</a></div></div>
+				<form name="test">
+		<input class="textbox inpWrap" type="text" name="Edit" placeholder="enter your word here"> 
+		<!-- <div class="buttonGO goText" onClick="return gettext(this);">Go</div>-->
+		<input class="invTextBox"type="text" name="Edit2"  readonly style="border:1px solid white opacity" />
+     </form>
+     </div>
+
+		
+	
+ </style> 
+	<div class="ant shadow"> 
+		<div class="resText"><strong>Antonyms:</strong><p id="anto"></p></div>
+	</div>
+
+
+
+</div >
+
+
+<script>
+function gettext() {
+
+  document.forms.test.Edit2.value = document.forms.test.Edit.value;
+  var apiKey = '0771a4c95ca7e23d41e33f67a1da0000/';
+  var txtjson = '/json';
+  var f = document.forms.test.Edit2.value;
+  var apiUrl = 'http://words.bighugelabs.com/api/2/' + apiKey + f + txtjson;
+
+  $.ajax({
+    url: apiUrl,
+    type: "GET",
+    dataType: 'json',
+    success: parseWord
+  });
+  return false;
+}
+
+
+
+
+function parseWord(data) {
+
+  $('#syno').text(data.noun.syn.join(', '));
+  
+  $('#anto').text(data.noun.ant.join(', '));
+
+}
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

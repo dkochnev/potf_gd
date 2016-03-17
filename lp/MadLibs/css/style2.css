@@ -1,0 +1,65 @@
+ #top {
+    position: relative;
+   
+  
+    margin-top: 50px;
+    margin-left: 15%;
+
+    border: 0px ;
+    width: 70%;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+#bottom{
+    position: relative;
+   
+  text-align: middle;
+    margin-top: 0px;
+    margin-left: 30%;
+
+    border: 0px;
+    width: 40%;
+    height: 70px;
+    overflow: hidden;
+}
+
+div.panel {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.next{
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+        height:20%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: yellow;
+    line-height: 1.7em;
+     font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 2.1em;
+    text-decoration: none;
+    border: none;
+    color:grey;
+}
+
+.start{
+    position: absolute;
+    width:100%;
+    text-align: center;
+    vertical-align: middle;
+
+    line-height: 1.7em;
+     font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: none;
+    color:grey;
+}

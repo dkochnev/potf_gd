@@ -1,0 +1,334 @@
+html, body{margin: 0;    padding: 0;}
+
+
+body {
+ background: url(bg1.jpg) no-repeat center center fixed #000; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+
+.wrapper{
+
+border-bottom: 0px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+width: 270px;
+left: 50%;
+margin-left: -135px;
+position: absolute;
+    top: 30%;
+    
+
+ 
+}
+
+h2{
+
+    text-align: center;
+    color: #fff;
+    font-family: ,sans-serif;
+    font-size: 30px;
+    margin-left: 0px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.textarea1{
+    background: url("text.png");
+    left: 50%;
+    width: 270px;
+    height: 290px;
+    z-index: 1;
+}
+
+#fire{
+    position: relative;
+    width:270px;
+    height:290px;
+   z-index: 1;
+
+}
+
+.buttext{
+    font-size: 22px;
+    padding-top:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    z-index: 3;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.myButton {
+    position: absolute;
+    width:270px;
+    height: 45px;
+    -moz-box-shadow: 0px 0px 0px 0px #a6827e;
+    -webkit-box-shadow: 0px 0px 0px 0px #a6827e;
+    box-shadow: 0px 0px 0px 0px #a6827e;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7d5d3b), color-stop(1, #634b30));
+    background:-moz-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+    background:-webkit-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+    background:-o-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+    background:-ms-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+    background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d5d3b', endColorstr='#634b30',GradientType=0);
+    background-color:#7d5d3b;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:20px;
+    font-weight: 500;
+    font-weight:bold;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #4d3534;
+   line-height: 200%;
+    letter-spacing: 3px;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #634b30), color-stop(1, #7d5d3b));
+    background:-moz-linear-gradient(top, #634b30 5%, #7d5d3b 100%);
+    background:-webkit-linear-gradient(top, #634b30 5%, #7d5d3b 100%);
+    background:-o-linear-gradient(top, #634b30 5%, #7d5d3b 100%);
+    background:-ms-linear-gradient(top, #634b30 5%, #7d5d3b 100%);
+    background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#634b30', endColorstr='#7d5d3b',GradientType=0);
+    background-color:#634b30;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+textarea{
+resize: none;
+background: transparent;
+margin-bottom: 0px;
+padding-bottom: 0px;
+width: 235px;
+height: 220px;
+left: 50%;
+margin-left: -120px;
+position: absolute;
+top: 32%;
+z-index: 2;
+color: #5E1D06;
+font-size: 1.8em;
+font-family: 'Bad Script', cursive;
+ border: 0 none #FFF;
+    overflow: hidden;
+    outline:none;
+}
+textarea:focus{
+ border: 0 none #FFF;
+    overflow: hidden;
+    outline:none;
+}
+
+#negtext {
+
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: none;
+    outline:none;
+    height:30px;
+    font-size: 16;
+    transition:height 1s;
+    -webkit-transition:height 1s;
+}
+
+#again{
+    display:none;
+}
+
+
+.textarea2{
+    display:none;
+       background: url("up.png");
+    left: 50%;
+    width: 270px;
+    height: 290px;
+    z-index: 1;
+}
+
+
+.instructions{
+  padding-top: 15px;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: .9em;
+    font-weight: 300;
+    font-family: Roboto;
+
+z-index: 101;
+}
+
+.instructions1{
+    display: none;
+
+  padding-top: 15px;
+    color: #000;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-family:Roboto;
+    font-size: 1.6em;
+    z-index: 101;
+    font-weight: bold;
+    background-color: rgba(255,255,255,.5);
+}
+
+.footer{
+    position: absolute;
+    background-color: #181818;  
+    width: 100%;
+    bottom: 0px;
+       font-family:Roboto;
+       font-weight: 100;
+color: #828282;
+text-decoration: none;
+text-align: center;
+
+}
+.footer a{
+       font-family:Roboto;
+       font-weight: 100;
+    color: #828282;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+   overflow: hidden;
+  
+}
+.piopio{
+    position:absolute;
+}
+#bat{
+    left:100%;
+    -moz-animation:batfl 14s ;
+    -webkit-animation: batfl 14s ;
+    -o-animation:batfl 14s ;
+    -ms-animation:batfl 14s ;
+    -khtml-animation:batfl 14s ;
+    animation:batfl 14s ;
+    animation-fill-mode: forwards;
+    z-index: 100;
+}
+@-moz-keyframes batfl{
+    0%{
+        top:5px;
+    }25%{
+        top:100px;
+    }50%{
+        top:80px;
+    }75%{
+        top:25px;
+    }100%{
+        left:57px;
+        top:82px;
+    }
+}
+@-webkit-keyframes batfl{
+    0%{
+        margin-left:100%;
+        top:5px;
+    }25%{
+        top:100px;
+    }50%{
+        top:80px;
+    }75%{
+        top:25px;
+    }100%{
+        left:57px;
+        top:82px;
+    }
+}
+@-o-keyframes batfl{
+    0%{
+        top:5px;
+    }25%{
+        top:100px;
+    }50%{
+        top:80px;
+    }75%{
+        top:25px;
+    }100%{
+        left:57px;
+        top:82px;
+    }
+}
+@-ms-keyframes batfl{
+    0%{
+        top:5px;
+    }25%{
+        top:100px;
+    }50%{
+        top:80px;
+    }75%{
+        top:25px;
+    }100%{
+        left:57px;
+        top:82px;
+    }
+}
+@-khtml-keyframes batfl{
+    0%{
+        top:5px;
+    }25%{
+        top:100px;
+    }50%{
+        top:80px;
+    }75%{
+        top:25px;
+    }100%{
+        left:57px;
+        top:82px;
+    }
+}
+@keyframes batfl{
+    0%{
+        left:100%;
+        top:5px;
+    }25%{
+        top:100px;
+    }50px{
+        top:80px;
+    }75%{
+        top:25px;
+    }100%{
+        left:57px;
+        top:82px;
+    }
+}

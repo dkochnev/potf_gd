@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Marck+Script);
+
+.topLogo {
+	position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+      
+}
+
+.topLogo img{
+	height: 35%;
+}
+
+.infoDate {
+
+	 -webkit-animation: slide-in 1.25s; 
+    -moz-animation: slide-in 1.25s; 
+    -o-animation: slide-in 1.25s; 
+    animation: slide-in 1.25s; 
+	font-family: Marck Script;
+	color: #fff;
+	font-size: 36px;
+	background: rgba(250,0,0,.5);
+	position: absolute;
+        text-align: center;
+        top: 40vh;
+        width: 100%;
+        opacity: 0;
+         -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+ 
+}
+
+.infoDate:hover{
+		box-shadow: 0px 0px  10px red;
+}
+
+.partn{}
+
+.partn img:hover{
+	box-shadow: 0px 0px  10px red;
+}
+
+
+
+@-webkit-keyframes slide-up {
+  	0%   { opacity: 0; margin-top:250px; }
+  	100% { opacity: 1; margin-top:0px; }
+}
+
+@-moz-keyframes slide-up {
+  	0%   { opacity: 0; margin-top:250px; }
+  	100% { opacity: 1; margin-top:0px; }
+}
+
+@-o-keyframes slide-up {
+  	0%   { opacity: 0; margin-top:250px; }
+  	100% { opacity: 1; margin-top:0px; }
+}
+
+@keyframes slide-up {
+  	0%   { opacity: 0; margin-top:250px; }
+  	100% { opacity: 1; margin-top:0px; }
+}
+
+
+
+
+
+@-webkit-keyframes slide-in {
+  	0%   { opacity: 0; left:-100%; }
+  	100% { opacity: 1; left:0px; }
+}
+
+@-moz-keyframes slide-in {
+  	0%   { opacity: 0; left:-100%; }
+  	100% { opacity: 1; left:0px; }
+}
+
+@-o-keyframes slide-in {
+  	0%   { opacity: 0; left:-100%; }
+  	100% { opacity: 1; left:0px; }
+}
+
+@keyframes slide-in {
+  	0%   { opacity: 0; left:-100%; }
+  	100% { opacity: 1; left:0px; }
+}
+
+
+
+.row h1 {
+	position: relative;
+	display: block;
+	outline: none;
+	text-decoration: none;
+    vertical-align: middle;
+	-webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.row h1:hover,
+.row h1:focus {
+	outline: none;
+	text-decoration:none;
+
+
+}
+
+h1 {
+	color: #000;
+	text-shadow: none;
+} 
+h1:hover,
+h1:focus {
+	background-color: transparent !important;
+}
+h1::before {
+	position: absolute;
+	display: block;
+ 	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    vertical-align: middle;
+	overflow: hidden;
+	max-width: 0;
+	border-bottom: 2px solid red;
+	color: red;
+	content: attr(data-hover);
+	-webkit-transition: max-width 0.4s;
+	-moz-transition: max-width 0.4s;
+	transition: max-width 0.4s;
+}
+
+h1:hover::before,
+h1:focus::before {
+	max-width: 100%;
+}
+
+
+

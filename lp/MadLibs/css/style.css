@@ -1,0 +1,111 @@
+body {
+background-image: url(../img/bg.png) ;
+background-repeat: repeat;
+}
+
+.header {
+     top: 0px;
+     background-color: #24f6bd;
+    width:100%;
+    vertical-align: center;
+    text-align: left, center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    height:35px;
+    font-size: 15pt;
+    display: block;  
+}
+
+h2{
+	margin-top: 30px;
+	 font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    color: #596f6c;
+}
+
+h3{
+	 font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+}
+
+h1{
+	 font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.bottext{
+	bottom: 0px;
+	width:100%;
+	background-color: #24f6bd;
+	   color:#141414;
+	    font-family: 'Ubuntu', sans-serif;
+	    font-size: 12pt;
+	    font-weight: 300;
+}
+
+.header .webd { float: left;
+ width:33.33333%;
+ text-align:right; }
+.header .links { float: left;
+  width:33.33333%;
+  text-align:center;
+  }
+.header .madl { float: left;
+  width:33.33333%;
+  text-align:left; }
+
+label{
+
+}
+
+a { color: inherit; } 
+
+.btn{
+  background-color: #24f6bd;
+}
+
+.btn1{
+	position: absolute;
+    bottom: 0px;
+    width:100%;
+        height:20%;
+        margin-bottom: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: orange;
+    line-height: 1.7em;
+     font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 2.1em;
+color: grey;
+border: none;
+}
+
+.buttext{
+	color: grey;
+	    font-family: 'Ubuntu', sans-serif;
+font-size: 1.5em;
+}
+
+.labeltext1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 4.5em;
+	font-weight: 300;
+
+  color: white;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}

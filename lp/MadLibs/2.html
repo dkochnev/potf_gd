@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>_madlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	
+ 	<link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+        <link href="css/style2.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+ 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400italic,300,500' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+
+<div class="header">
+    <span class="madl">_madlib by Dmitry Kochnev </span>
+
+    <span class="links">--
+       <a href="index.html">1</a> --
+       <a href="2.html">2</a> --
+  
+
+     </span>
+    <span class="webd"><align="right">Web Design II</span>
+</div>
+
+
+<div id="top">
+    	<div class="panel" id="target1" style="background:#fd6dfb">
+			<br/>
+ 					<div class="form-group">
+                    <center><label for="verb"><span class="labeltext labeltext1">Verb</span></label></center>
+                    <center> <input id="verb" class="form-control verb" type="text" style="position:relative; width:30%; height:80px;" placeholder="Enter a verb ..">
+                    </center>
+                    </div>
+
+                    <a href="#target2" class="panel next">Next</a>
+		</div>
+
+
+    <div class="panel" id="target2" style="background:#8c6dfd">
+    	<br/>
+    				<div class="form-group">
+                    <center><label for="animal"><span class="labeltext labeltext1">Animal</span></label></center>
+                    <center><input id="animal" class="form-control animal" type="text" style="position:relative; width:30%; height:80px;" placeholder="Enter an animal ..">
+                    </center>
+                    </div>
+
+                    <a href="#target3" class="panel next">Next</a>
+    </div>
+    		
+
+    <div class="panel" id="target3" style="background:#6d8cfd">
+    	<br/>
+					<div class="form-group">
+                    <center><label for="person"><span class="labeltext labeltext1">Boy's Name</span></label></center>
+                    <center><input id="person" class="form-control person" type="text" style="position:relative; width:30%; height:80px;" placeholder="Enter a boy's name ..">
+                    </center>
+                    </div>
+
+                        	<a href="#target4" class="panel next">Next</a><br/>
+
+    </div>
+    		
+	<div class="panel" id="target4" style="background:#6dfdb8">
+		<br/>
+					<div class="form-group">
+                    <center><label for="noun"><span class="labeltext labeltext1">Noun</span></label></center>
+                    <center><input id="noun" class="form-control noun" type="text" style="position:relative; width:30%; height:80px;" placeholder="Enter a noun ..">
+                    </center>
+                    </div>
+
+                        	<a href="#target5" class="panel next">Next</a><br/>
+
+    	</div>
+
+
+
+    	<div class="panel" id="target5" style="background:#b1fd6d">
+    		<br/>
+					<div class="form-group">
+                    <center><label for="verb2"><span class="labeltext labeltext1">Verb</span></label></center>
+                    <center><input id="verb2" class="form-control verb2" type="text" style="position:relative; width:30%; height:80px;" placeholder="Enter a verb ..">
+                    </center>
+                    </div>
+
+                        	<a href="#target6" class="panel next">Next</a><br/>
+
+    	</div>
+
+
+
+    	<div class="panel" id="target6" style="background:#fdf16d">
+    	<a href="#target7" class="panel">
+    		
+    	</a><br/>
+					<div class="form-group">
+                    <center><label for="adjective"><span class="labeltext labeltext1">Adjective</span></label></center>
+                    <center><input id="adjective" class="form-control adjective" type="text" style="position:relative; width:30%; height:80px;" placeholder="Enter an adjective ..">
+                    </center>
+                    </div>
+            <button id="btn-click" type="submit" class="btn btn1 btn-primary btn-lg" >Generate!</button>
+    	</div>
+
+
+
+
+
+
+</div>
+
+ <div id="story">
+        <h2>The Story</h2>
+        <hr>
+        <h3>
+       <span class="person"></span> learned how to <span class="verb"></span> at college. After graduation he found a job where he could <span class="verb"></span> all day. He worked 20 hours a day like a <span class="animal"></span>. One day <span class="person"></span> decided to quit the job. When <span class="person"></span> found a new job on the Internet, he was supposed to <span class="verb2"></span> for only 4 hours a day. He was not even trained for that. <span class="person"></span> was a <span class="adjective"></span> worker and he liked to <span class="verb2"></span>. His job was to <span class="verb2"></span> a <span class="noun"></span>.</h3>
+        <div>
+        </div>
+      </div> 
+
+
+
+
+<div id="bottom">
+    <a href="#target1" class="panel start">Start over</a><br/>
+    
+</div>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

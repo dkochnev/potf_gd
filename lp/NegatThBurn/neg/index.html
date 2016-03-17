@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Negative Thoughts Burner</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimal-ui">
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="fire-0.62.min.js"></script>
+    <script type="text/javascript" src="burn.js"></script>
+
+<link href="style.css" rel="stylesheet"/>
+
+<link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:500,300,100' rel='stylesheet' type='text/css'>
+
+
+<script>
+$(document).ready(function() {
+    $('.burning').burn();
+});
+</script>
+ 
+
+
+ <script>
+    
+	$(document).ready( function(){
+		$('#fire').fire({
+			
+			speed:20,
+			maxPow:7,
+			minPow:1,
+			gravity:100,
+			flameWidth:3,
+			flameHeight:2,
+			plasm:false,
+			fireTransparency:50,
+			fadingFlameSpeed:3,
+			mouseEffect:true
+		});	
+	});
+    
+    </script>
+
+</head>
+
+<body>
+
+<img src="bat.gif" id="bat" class="piopio">
+
+
+<div class="burning buttext" style="background-color:#181818;"><center>NEGATIVE THOUGHTS BURNER</center></div>
+ <div class="instructions"> INSTRUCTIONS: <br> 1. Write your negative thoughts in the area below <br> 2. Press 'BURN IT' button <br> 3. Enjoy your negative thoughts being burnt.</div>
+<div class="instructions1"> CONGRATULATIONS: <br> Your negative thought is burnt</div>
+<div id="textwrap"><textarea ></textarea></div>
+
+
+<div class="wrapper">
+	<div class="textarea1"> 
+		<div id="fire"></div>
+	</div>
+<div class="textarea2"></div>
+<a href="javascript:playStop();" class="myButton" id="stop">BURN &nbsp;IT</a>
+<a href="index.html" class="myButton" id="again">MORE THOUGHTS?</a>
+</div>
+
+<script type="text/javascript" src="toggle.js"></script>
+
+
+<script>
+$(function(){
+  $("#stop").click(function(){
+     $("#fire").css("z-index", 100);
+     $("textarea").fadeOut(9000);
+     $(".textarea1").delay(7000).fadeOut(4000, function(){
+     	   $(".textarea2").fadeIn(1000).css('display', 'block');
+     	   $("#again").fadeIn(1500).css('display', 'block');
+     	   $("body").css('background', 'url(bg2.jpg) no-repeat center center fixed').css('background-size', 'cover').css('-moz-background-size', 'cover').css('-webkit-background-size', 'cover');
+     	   $(".instructions").css('display','none');
+     	   $(".instructions1").css('display','block');
+     	   $("#bat").attr("src","bf.gif");
+
+     });
+  
+
+  });
+});
+</script>
+<div class="footer">designed by <a href="http://dmik3d.com">Dmitry Kochnev</a> 2015 </div>
+
+</body>
+</html>
+

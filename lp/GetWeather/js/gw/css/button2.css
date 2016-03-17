@@ -1,0 +1,716 @@
+.a-btn{
+    width:150px;
+    height:150px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    display:block;
+    margin:0px;
+    float:center;
+    background:rgba(255, 61, 125, 0.6);
+    position:relative;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+
+
+.a-btn span{
+    display:table-cell;
+    width:110px;
+    height:110px;
+    padding:20px;
+    text-align:center;
+    text-decoration: none;
+    vertical-align:middle;
+    font-size:62px;
+    line-height:0px;
+    color:#fff;
+    text-shadow:0px 1px 1px #660033;
+    font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.a-btn span:nth-child(1){
+    position:fixed;
+    top:0px;
+    left:0px;
+    line-height:0px;
+    opacity:0;
+}
+
+.a-btn span:nth-child(3){
+position:fixed;
+    top:-5px;
+    left:0px;
+    text-decoration: none;
+    font-size:64px;
+    line-height:0px;
+    opacity:0;
+}
+.a-btn span:nth-child(1){
+    background:transparent url(../images/star.png) no-repeat center center;
+    opacity:0.3;
+}
+.a-btn:hover{
+    background:#ff3d7d;
+   -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.a-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.a-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.a-btn:hover span:nth-child(1){
+    -webkit-animation:rotate 1s linear;
+    -moz-animation:rotate 1s linear;
+    animation:rotate 1s linear;
+}
+.a-btn:active{
+ -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.a-btn:active span:nth-child(2){
+    color:rgba(170, 77, 27, 0.8);
+    text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+.a-centered {
+ position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.b-btn{
+    width:70px;
+    height:70px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    display:block;
+    margin:0px;
+    float:left;
+    background:rgba(127, 208, 240, 0.6);
+    position:relative;
+    -webkit-box-shadow:0px 0px 0px 0px rgba(246, 212, 163, 0.5) inset, 0px 0px 0px 0px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 0px #fff,  0px 0px 0px 0px rgba(188, 188, 188, 0.4), 0px 0px 0px 0px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0.4), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0.4), 0px 0px 0px 6px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.b-btn span{
+    display:table-cell;
+    width:30px;
+    height:30px;
+    padding:20px;
+    text-align:center;
+    vertical-align:middle;
+    text-decoration: none;
+    font-size:30px;
+    color:#fff;
+    text-shadow:0px 1px 1px #660033;
+    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.b-btn span:nth-child(1){
+    position:fixed;
+    top:0px;
+    left:0px;
+    text-decoration: none;
+     opacity:0;
+}
+
+.b-btn span:nth-child(3){
+position:fixed;
+    top:-7px;
+    left:0px;
+    text-decoration: none;
+    font-size:24px;
+    line-height:0px;
+    opacity:0;
+}
+
+
+.b-btn span:nth-child(1){
+    background:transparent url(../images/star_s.png) no-repeat center center;
+    opacity:0.3;
+}
+.b-btn:hover{
+    background:#7FD0F0;
+   -webkit-box-shadow:0px 0px 0px 0px rgba(246, 212, 163, 0.5) inset, 0px 0px 0px 0px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 0px #fff,  0px 0px 0px 0px rgba(188, 188, 188, 0.4), 0px 0px 0px 0px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0.4), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0.4), 0px 0px 0px 6px #fff;
+}
+.b-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.b-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.b-btn:hover span:nth-child(1){
+    -webkit-animation:rotate 1s linear;
+    -moz-animation:rotate 1s linear;
+    animation:rotate 1s linear;
+}
+.b-btn:active{
+ -webkit-box-shadow:0px 0px 0px 0px rgba(246, 212, 163, 0.5) inset, 0px 0px 0px 0px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 0px #fff,  0px 0px 0px 0px rgba(188, 188, 188, 0), 0px 0px 0px 0px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0), 0px 0px 0px 6px #fff;
+}
+.b-btn:active span:nth-child(2){
+    color:rgba(170, 77, 27, 0.8);
+
+    text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
+
+}
+.b-centered {
+ position: fixed;
+  top: 70%;
+  left: 20%;
+
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.c-btn{
+    width:70px;
+    height:70px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    display:block;
+    margin:0px;
+    float:left;
+    background:rgba(79, 199, 240, 0.6);
+    position:relative;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0.4), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0.4), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0.4), 0px 0px 0px 6px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.c-btn span{
+    display:table-cell;
+    width:30px;
+    height:30px;
+    padding:20px;
+    text-align:center;
+   text-decoration: none;
+    vertical-align:middle;
+    font-size:30px;
+    color:#fff;
+    text-shadow:0px 1px 1px #A03F16;
+    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.c-btn span:nth-child(1){
+    position:absolute;
+    top:0px;
+    left:0px;
+    line-height:0px;
+    opacity:0;
+}
+
+.c-btn span:nth-child(3){
+position:fixed;
+    top:-7px;
+    left:0px;
+    text-decoration: none;
+    font-size:24px;
+    line-height:0px;
+    opacity:0;
+}
+
+
+.c-btn span:nth-child(1){
+    background:transparent url(../images/star_s.png) no-repeat center center;
+    opacity:0.3;
+}
+.c-btn:hover{
+    background:#4FC7F0;
+    -webkit-box-shadow:0px 0px 0px 0px rgba(246, 212, 163, 0.5) inset, 0px 0px 0px 0px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 0px #fff,  0px 0px 0px 0px rgba(188, 188, 188, 0), 0px 0px 0px 0px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0), 0px 0px 0px 6px #fff;
+}
+.c-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.c-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.c-btn:hover span:nth-child(1){
+    -webkit-animation:rotate 1s linear;
+    -moz-animation:rotate 1s linear;
+    animation:rotate 1s linear;
+}
+.c-btn:active{
+ -webkit-box-shadow:0px 0px 0px 0px rgba(246, 212, 163, 0.5) inset, 0px 0px 0px 0px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 0px #fff,  0px 0px 0px 0px rgba(188, 188, 188, 0), 0px 0px 0px 0px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0), 0px 0px 0px 6px #fff;
+}
+.c-btn:active span:nth-child(2){
+    color:rgba(170, 77, 27, 0.8);
+    text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
+}
+.c-centered {
+ position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+.d-btn{
+    width:70px;
+    height:70px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    display:block;
+    margin:0px;
+    float:left;
+    background:rgba(1, 176, 240, 0.6);
+    position:relative;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0.4), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0.4), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0.4), 0px 0px 0px 6px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.d-btn span{
+    display:table-cell;
+    width:30px;
+    height:30px;
+    padding:20px;
+   
+   text-decoration: none;
+    text-align:center;
+    vertical-align:middle;
+    font-size:30px;
+    color:#fff;
+    text-shadow:0px 1px 1px #A03F16;
+    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.d-btn span:nth-child(1){
+    position:absolute;
+    top:0px;
+    left:0px;
+    line-height:0px;
+    opacity:0;
+}
+
+.d-btn span:nth-child(3){
+position:fixed;
+    top:-7px;
+    left:0px;
+    text-decoration: none;
+    font-size:24px;
+    line-height:0px;
+    opacity:0;
+}
+
+.d-btn span:nth-child(1){
+    background:transparent url(../images/star_s.png) no-repeat center center;
+    opacity:0.3;
+}
+.d-btn:hover{
+    background:#01B0F0;
+    -webkit-box-shadow:0px 0px 0px 0px rgba(246, 212, 163, 0.5) inset, 0px 0px 0px 0px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 0px #fff,  0px 0px 0px 0px rgba(188, 188, 188, 0), 0px 0px 0px 0px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0), 0px 0px 0px 6px #fff;
+}
+.d-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.d-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.d-btn:hover span:nth-child(1){
+    -webkit-animation:rotate 1s linear;
+    -moz-animation:rotate 1s linear;
+    animation:rotate 1s linear;
+}
+.d-btn:active{
+  -webkit-box-shadow:0px 0px 0px 0px rgba(246, 212, 163, 0.5) inset, 0px 0px 0px 0px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 0px #fff,  0px 0px 0px 0px rgba(188, 188, 188, 0), 0px 0px 0px 0px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0), 0px 0px 0px 6px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  0px 0px 1px 6px rgba(188, 188, 188, 0), 0px 0px 0px 6px #fff;
+}
+.d-btn:active span:nth-child(2){
+    color:rgba(170, 77, 27, 0.8);
+    text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
+}
+.d-centered {
+ position: fixed;
+  top: 70%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/*    ======= for Precipitation ==========        */
+
+.e-btn{
+    width:200px;
+    height:200px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    display:block;
+    margin:0px;
+    float:center;
+    background:rgba(55, 141, 229, 0.6);
+    position:relative;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+
+
+.e-btn span{
+    display:table-cell;
+    width:160px;
+    height:160px;
+    padding:20px;
+    text-align:center;
+    text-decoration: none;
+    vertical-align:middle;
+    font-size:72px;
+    line-height:0px;
+    color:#fff;
+    text-shadow:0px 1px 1px #660033;
+    font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.e-btn span:nth-child(1){
+    position:fixed;
+    top:0px;
+    left:0px;
+    line-height:0px;
+    opacity:0;
+}
+
+.e-btn span:nth-child(3){
+position:fixed;
+    top:15px;
+    left:0px;
+    text-decoration: none;
+    font-size:72px;
+    line-height:0px;
+    opacity:0;
+}
+.e-btn span:nth-child(1){
+    background:transparent url(../images/star_b.png) no-repeat center center;
+    opacity:0.3;
+}
+.e-btn:hover{
+    background:#378de5;
+   -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.e-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.e-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.e-btn:hover span:nth-child(1){
+    -webkit-animation:rotate 1s linear;
+    -moz-animation:rotate 1s linear;
+    animation:rotate 1s linear;
+}
+.e-btn:active{
+ -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.e-btn:active span:nth-child(2){
+    color:rgba(170, 77, 27, 0.8);
+    text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+.e-centered {
+ position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/*    ======= for Time ==========        */
+
+.f-btn{
+    width:200px;
+    height:200px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    display:block;
+    margin:0px;
+    float:center;
+    background:rgba(143, 209, 0, 0.6);
+    position:relative;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+
+
+.f-btn span{
+    display:table-cell;
+    width:160px;
+    height:160px;
+    padding:20px;
+    text-align:center;
+    text-decoration: none;
+    vertical-align:middle;
+    font-size:72px;
+    line-height:0px;
+    color:#000;
+    text-shadow:0px 1px 2px #272727;
+    font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.f-btn span:nth-child(1){
+    position:fixed;
+    top:0px;
+    left:0px;
+    line-height:0px;
+    opacity:0;
+}
+
+.f-btn span:nth-child(3){
+position:fixed;
+    top:15px;
+    left:0px;
+    text-decoration: none;
+    font-size:72px;
+    line-height:0px;
+    opacity:0;
+}
+.f-btn span:nth-child(1){
+    background:transparent url(../images/star_b.png) no-repeat center center;
+    opacity:0.3;
+}
+.f-btn:hover{
+    background:#8fd100;
+   -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.f-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.f-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.f-btn:hover span:nth-child(1){
+    -webkit-animation:rotate 1s linear;
+    -moz-animation:rotate 1s linear;
+    animation:rotate 1s linear;
+}
+.f-btn:active{
+ -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.f-btn:active span:nth-child(2){
+    color:rgba(170, 77, 27, 0.8);
+    text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+.f-centered {
+ position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*    ======= for Date ==========        */
+
+.g-btn{
+    width:200px;
+    height:200px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    display:block;
+    margin:0px;
+    float:center;
+    background:rgba(210, 216, 32, 0.6);
+    position:relative;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+
+
+.g-btn span{
+    display:table-cell;
+    width:160px;
+    height:160px;
+    padding:20px;
+    text-align:center;
+    text-decoration: none;
+    vertical-align:middle;
+    font-size:72px;
+    line-height:0px;
+    color:#000;
+    text-shadow:0px 1px 2px #272727;
+    font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.g-btn span:nth-child(1){
+    position:fixed;
+    top:0px;
+    left:0px;
+    line-height:0px;
+    opacity:0;
+}
+
+.g-btn span:nth-child(3){
+position:fixed;
+    top:15px;
+    left:0px;
+    text-decoration: none;
+    font-size:72px;
+    line-height:0px;
+    opacity:0;
+}
+.g-btn span:nth-child(1){
+    background:transparent url(../images/star_b.png) no-repeat center center;
+    opacity:0.3;
+}
+.g-btn:hover{
+    background:#d2d820;
+   -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.g-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.g-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.g-btn:hover span:nth-child(1){
+    -webkit-animation:rotate 1s linear;
+    -moz-animation:rotate 1s linear;
+    animation:rotate 1s linear;
+}
+.g-btn:active{
+ -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.g-btn:active span:nth-child(2){
+    color:rgba(170, 77, 27, 0.8);
+    text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+.g-centered {
+ position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@keyframes rotate{
+    0% { transform: scale(1) rotate(0);}
+    50% { transform: scale(0.5) rotate(180deg);}
+    100% { transform: scale(1) rotate(360deg);}
+}
+@-webkit-keyframes rotate{
+    0% { -webkit-transform: scale(1) rotate(0);}
+    50% { -webkit-transform: scale(0.5) rotate(180deg);}
+    100% { -webkit-transform: scale(1) rotate(360deg);}
+}
+@-moz-keyframes rotate{
+    0% { -moz-transform: scale(1) rotate(0);}
+    50% { -moz-transform: scale(0.5) rotate(180deg);}
+    100% { -moz-transform: scale(1) rotate(360deg);}
+}
+
+

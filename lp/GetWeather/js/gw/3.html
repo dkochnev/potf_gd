@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-title" content="M8B">
+  <meta name="mobile-web-app-title" content="M8B">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  
+  <meta name="mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+
+
+<!-- Anrdoid Button Icons -->
+<link rel="shortcut icon" sizes="128x128" href="images/app_icon128.png">
+<link rel="shortcut icon" sizes="196x196" href="images/app_icon196.png">
+
+<!-- iOS Button Icons -->
+<link rel="apple-touch-icon" href="images/app_icon60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/app_icon76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/app_icon120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/app_icon152.png">
+
+<link rel="stylesheet" type="text/css" href="css/button2.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+    
+
+
+
+
+<title>Date</title>
+
+
+
+</head>
+
+<body>
+
+<div class="topText"><div class="actualText">Date</div></div>
+ 	<div class="round-button">
+    <a href="index.html">
+        <img src="images/Home.png">
+    </a>
+
+</div>
+    
+				
+    <div class="content">
+        <div class="button-wrapper">
+          <a href="#" class="g-btn g-centered " style="text-decoration:none">
+                        <span></span>
+                          <span >GET</span>
+                            <span> <p id="myDate"></p></span>
+          </a>          
+ 
+
+<script>
+  var dt = new Date();
+       var month = new Array();
+    month[0] = "JAN";
+    month[1] = "FEB";
+    month[2] = "MAR";
+    month[3] = "APR";
+    month[4] = "MAY";
+    month[5] = "JUN";
+    month[6] = "JUL";
+    month[7] = "AUG";
+    month[8] = "SEP";
+    month[9] = "OCT";
+    month[10] = "NOV";
+    month[11] = "DEC";
+
+     var n = month[dt.getMonth()];
+
+
+    document.getElementById("myDate").innerHTML =  dt.getDate() + "&nbsp" +n;
+
+
+</script>
+
+
+</body>
+
+
+
+</html>
