@@ -220,36 +220,6 @@ a {
   z-index: 52;
   top: 0;
 }
-.b-scroller {
-  display: none;
-  position: absolute;
-  top: 50%;
-  right: 50px;
-  width: 19px;
-  height: 56px;
-}
-.b-scroller .mouse {
-  height: 33px;
-  border: 1px solid #fff;
-  border-radius: 9.5px;
-}
-.b-scroller .roll {
-  position: absolute;
-  top: 6px;
-  left: 50%;
-  width: 5px;
-  height: 4px;
-  margin-left: -2.5px;
-  border-radius: 50%;
-  background-color: #fff;
-  animation: roll-animate 1.2s infinite ease;
-}
-.b-scroller .arrow {
-  width: 19px;
-  height: 10px;
-  opacity: .5;
-  background-size: 19px auto;
-}
 
 #logoimg{
   height:30px;
@@ -1278,14 +1248,6 @@ body.menu-open .nav-ctrl {
 }
 html.touch .nav-ctrl {
   display: none !important;
-}
-@media all and (min-width: 480px) and (min-height: 480px) {
-  .header .extra > .curr[rel='about'],
-  .header .extra > .curr[rel='portfolio'] {
-    display: block;
-  }
-
-
 }
 
 
